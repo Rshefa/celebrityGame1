@@ -215,7 +215,7 @@ public class CelebrityPanel extends JPanel implements ActionListener {
    * to provide the same functionality.
    */
   private void updateScreen() {
-    String currentGuess = guessField.getText(){
+    String currentGuess = guessField.getText();
       clueArea.append("\nYou guessed: " + currentGuess + "\n");
       if(controller.processGuess(currentGuess)){
         clueArea.setBackground(Color.CYAN);
@@ -234,4 +234,4 @@ public class CelebrityPanel extends JPanel implements ActionListener {
     }
 
   }
-}
+
