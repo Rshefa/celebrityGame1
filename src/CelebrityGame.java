@@ -67,6 +67,11 @@ public class CelebrityGame {
 		}
 	}
 
+	public void reset(){
+
+
+	}
+
 	/**
 	 * Adds a Celebrity of specified type to the game list
 	 * 
