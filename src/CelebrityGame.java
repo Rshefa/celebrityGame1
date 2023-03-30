@@ -68,7 +68,8 @@ public class CelebrityGame {
 	}
 
 	public void reset(){
-
+		celebGameList.clear();
+		gameWindow.reset();//new method in the frame
 
 	}
 
